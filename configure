@@ -3651,7 +3651,7 @@ else
 fi
 
 
-CXXFLAGS=`echo " $CXXFLAGS " | sed -e "s/ -g / /"` # do not want it implicitly
+#CXXFLAGS=`echo " $CXXFLAGS " | sed -e "s/ -g / /"` # do not want it implicitly
 ac_ext=c
 ac_cpp='$CPP $CPPFLAGS'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
@@ -4301,7 +4301,7 @@ else
 fi
 
 
-CFLAGS=`echo " $CFLAGS " | sed -e "s/ -g / /"` # do not want it implicitly
+#CFLAGS=`echo " $CFLAGS " | sed -e "s/ -g / /"` # do not want it implicitly
 
 { $as_echo "$as_me:${as_lineno-$LINENO}: checking for library containing strerror" >&5
 $as_echo_n "checking for library containing strerror... " >&6; }
