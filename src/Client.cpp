@@ -212,10 +212,10 @@ void Client::Run( void ) {
     char* readAt = mBuf;
 
 #if HAVE_THREAD
-    if ( !isUDP( mSettings ) ) {
-	RunTCP();
-	return;
-    }
+//    if ( !isUDP( mSettings ) ) {
+//	RunTCP();
+//	return;
+//    }
 #endif
     
     // Indicates if the stream is readable 
