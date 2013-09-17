@@ -1,0 +1,37 @@
+* Mon Sep 16 2013 Matti Kosola <matti.kosola@jollamobile.com> 2.0.5-4
+- packaging to mer-tools
+
+* Mon Nov 28 2011 Gabriel Somlo <somlo at cmu.edu> 2.0.5-3
+- include man page with build (BZ 756794)
+
+* Wed Feb 09 2011 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.5-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_15_Mass_Rebuild
+
+* Sat Aug 21 2010 Gabriel Somlo <somlo at cmu.edu> 2.0.5-1
+- update to 2.0.5
+
+* Tue Dec 01 2009 Gabriel Somlo <somlo at cmu.edu> 2.0.4-4
+- patched to current svn trunk to address performance issues (#506884)
+
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.4-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
+* Tue Feb 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.4-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
+
+* Wed Jan 21 2009 Gabriel Somlo <somlo at cmu.edu> 2.0.4-1
+- update to 2.0.4
+- patch to avoid tcp/dualtest server from quitting (bugzilla #449796), also submitted to iperf sourceforge ticket tracker (#1983829)
+
+* Sat Oct 27 2007 Gabriel Somlo <somlo at cmu.edu> 2.0.2-4
+- replace usleep with sched_yield to avoid hogging CPU (bugzilla #355211)
+
+* Mon Jan 29 2007 Gabriel Somlo <somlo at cmu.edu> 2.0.2-3
+- patch to prevent removal of debug info by ville.sxytta(at)iki.fi
+
+* Fri Sep 08 2006 Gabriel Somlo <somlo at cmu.edu> 2.0.2-2
+- rebuilt for FC6MassRebuild
+
+* Wed Apr 19 2006 Gabriel Somlo <somlo at cmu.edu> 2.0.2-1
+- initial build for fedora extras (based on Dag Wieers SRPM)
+- fixed license tag: BSD (U. of IL / NCSA), not GPL
